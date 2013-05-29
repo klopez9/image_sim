@@ -3,11 +3,15 @@ image_sim
 
 "Performance-Lab" assignment
 
-This lab assigment was designed to get us (the students) thinking about code optimization. This program:
+This lab assigment was designed to get us (the students) thinking
+about code optimization. This program:
 
 ----simulates an image using a matrix, where each cell is a "pixel"
+
 ----contains the functions:
+
 --------rotate() //flips the matrix 90 degrees clockwise
+
 --------smooth() //averages values of adjacent cells to "smooth" image
 
 We were given all the necessary files and were asked to optimize the
@@ -20,3 +24,6 @@ We were given all the necessary files and were asked to optimize the
  smoothing/rotating them simultaneously. We kept the naive
  implementation for smaller image sizes since we got worse performance
  on those using pthreads.
+
+Used with permission by Binghamton University CS Department (see README
+file for original copyright information)
